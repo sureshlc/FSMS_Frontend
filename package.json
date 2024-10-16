@@ -1,0 +1,62 @@
+{
+  "name": "nexus-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^5.4.3",
+    "@tanstack/react-query-devtools": "^5.4.3",
+    "@tanstack/react-table": "^8.10.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "chart.js": "^4.4.0",
+    "chartjs-chart-treemap": "^2.3.0",
+    "chartjs-plugin-annotation": "^3.0.1",
+    "chroma-js": "^2.4.2",
+    "d3": "^7.9.0",
+    "dotenv": "^16.3.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-export-table-to-excel": "^1.0.6",
+    "react-icons": "^5.0.1",
+    "react-router": "^6.18.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "react-simple-maps": "^3.0.0",
+    "react-toastify": "^10.0.4",
+    "styled-components": "^6.0.8",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

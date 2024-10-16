@@ -1,0 +1,30 @@
+export const categoryEndpoints = {
+  Overview: "/Overview",
+  Labour: "/labour",
+  "Dietary Content": "/dietary-content",
+  "Food security challenges in children": "/food-security-children",
+  Investments: "/investments",
+  Yield: "/yield",
+  "Gross Production Value": "/gross-production-value",
+  "Food security challenges in adults": "/food-security-adults",
+  "Food Balances": "/food-balances",
+  "Trade indices": "/trade-indices",
+  "Agriculture emissions": "/agriculture-emissions",
+  "Production indices": "/production-indices",
+  "Consumer Prices": "/consumer-prices",
+  //new
+  "Food Security": "/food-security",
+  Availability: "/availability",
+  Production: "/production",
+  Consumption: "/consumption",
+  Trade: "/trade",
+  "Food Prices": "/food-prices",
+  Emissions: "/emissions",
+  "Dietary Energy Supply(Consumption)":"/Dietary-Energy-Supply",
+  "Food Balance":"/Food-Balance",
+  Forestry:"/Forestry",
+  "Macro-Economic Indicators":"/Macro-Economic-Indicators",
+  Investment:"/Investment",
+  "Production & Trade":"/Production-Trade"
+
+};
