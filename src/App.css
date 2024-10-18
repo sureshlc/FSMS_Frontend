@@ -1,0 +1,87 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100;1,300;1,700;1,900&display=swap"); */
+
+* {
+  user-select: none;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Archivo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.tooltip-container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.tooltip-title {
+  color: #000;
+  font-family: Archivo;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.0125rem;
+}
+.tooltip-subtitle {
+  color: #000;
+  font-family: Archivo;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.015rem;
+}
+
+.x.axis > .tick > text,
+.y.axis > .tick > text {
+  font-size: 0.625rem;
+  color: #3f5270;
+  font-weight: 400;
+}
+
+.x.axis > .domain,
+.x.axis > .tick > line {
+  stroke: #dbe9f4;
+}
+
+.line-circle-grp {
+  .line-circle {
+    stroke: #fff !important;
+  }
+}
+
+.cool-column .x.axis .tick line {
+  display: none;
+}
+
+.cool-column .y.axis .tick line {
+  display: none;
+}
+.cool-column .y.axis .tick .y-axis-line {
+  display: block !important;
+}
+.best-bar .x.axis .tick .x-axis-line {
+  display: block !important;
+}
+
+.cool-column .x.axis text {
+  fill: #606080;
+}
+
+.cool-column .x.axis .domain {
+  stroke: #c2ccd9;
+}
+
+.cool-column .y.axis .domain {
+  display: none;
+}
