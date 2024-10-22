@@ -1,0 +1,14 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+[*]
+indent_style = space   # or "tab" if you prefer tabs
+indent_size = 2        # 2 spaces for Node.js projects is common
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
