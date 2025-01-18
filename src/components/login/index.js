@@ -109,7 +109,8 @@ const LoginPage = () => {
       </BlueDiv>
       <WhiteDiv>
         <Logocontainer>
-          <Logoimg />
+           <h1>MASHREQ Dashboard</h1>
+          {/* <Logoimg /> */}
           {/* <img src={Logo} alt="" srcset="" /> */}
         </Logocontainer>
         <LoginForm onSubmit={handleSubmit}>
